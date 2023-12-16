@@ -1,0 +1,98 @@
+[
+    {
+      "id": 0,
+      "code": "true",
+      "description": ""
+    },
+    {
+      "id": 1,
+      "code": "false",
+      "description": ""
+    },
+    {
+      "id": 2,
+      "code": "int",
+      "description": "A keyword used for declaring integer variables."
+    },
+    {
+      "id": 3,
+      "code": "double",
+      "description": "A keyword used for declaring double-precision floating-point variables."
+    },
+    {
+      "id": 4,
+      "code": "string",
+      "description": "A keyword used for declaring string variables."
+    },
+    {
+      "id": 5,
+      "code": "=",
+      "description": "The assignment operator used to assign a value to a variable."
+    },
+    {
+      "id": 6,
+      "code": "+",
+      "description": "The addition operator used to add two values."
+    },
+    {
+      "id": 7,
+      "code": "-",
+      "description": "The addition operator used to subtract two values."
+    },
+    {
+      "id": 8,
+      "code": "if",
+      "description": "A keyword used to create conditional statements in C++."
+    },
+    {
+      "id": 9,
+      "code": "for",
+      "description": "A keyword used to create loops in C++."
+    },
+    {
+      "id": 10,
+      "code": "cout",
+      "description": "A standard output stream in C++ used to display information."
+    },
+    {
+      "id": 11,
+      "code": "cin",
+      "description": "A standard input stream in C++ used to read input from the user."
+    },
+    {
+      "id": 12,
+      "code": "to_string()",
+      "description": "Convert inteter to string"
+    },
+    {
+      "id": 13,
+      "code": "pow(int,int)",
+      "description": "returns the power of the first parameter to the second parameter."
+    },
+    {
+      "id": 14,
+      "code": "#include <iostream>",
+      "description": "A header file library that allows for input and output"
+    },
+    {
+      "id": 15,
+      "code": "run",
+      "description": "Activate the ancient script tabulet"
+    },
+    {
+      "id":16,
+      "code": "using namespace std;",
+      "description": "use names for objects and variables from the standard library."
+    },
+    {
+      "id": 17,
+      "code": "int main(){}",
+      "description": "A function that automatically executes"
+    },
+    {
+      "id": 18,
+      "code": "return",
+      "description": "Ends the function and return the values following this keyword"
+    }
+  ]
+  

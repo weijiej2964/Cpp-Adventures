@@ -1,0 +1,64 @@
+{
+    "scenes": [
+        ["/img/prototype/mystic_forest.jpg", 0],
+        ["/img/prototype/dragon_cave.jpg", 8],
+        ["/img/prototype/magic_bridge.jpg", 19]
+    ],
+    "characters": [
+        ["/img/prototype/wanderer.jpg", 0]
+    ],
+    "sideCharacters": [
+        ["/img/prototype/empty.jpg",0],
+        ["/img/prototype/spell_caster.jpg", 12]
+    ],
+    "dialogue": [
+        ["Wanderer: Greetings, traveler! I am on a quest to uncover the secrets of C++ magic. Care to join me?", 0],
+        ["Wanderer: Today, we shall traverse the Mystic Forest, a realm filled with enchanted syntax and mythical creatures.", 1],
+        ["Wanderer: Behold the ancient script on the right it holds the key to our first enchantment!", 2],
+        ["Wanderer: Your first challenge is to declare 'enchantedWord' with a special syntax to unlock the magic within.", 3],
+        ["Wanderer: Great, you have unlocked the seal! Now power the enchantedWord by declaring 'enchantedWord_power' with another special syntax.", 4],
+        ["Wanderer: Amazing! the enchantedWord has been powered up. Now we just need to activate our magical barrier before we move on.", 5],
+        ["Wanderer: Activate the 'magical_barrier' by filling in the missing ancient script.", 6],
+        ["Wanderer: Well done, adventurer! Our journey takes us next to the Dragon's Cave, guarded by a code-protected beast.", 7],
+        ["Wanderer: To enter, we must clear the `sealManaStorage`, once the mana storage has no mana left, the seal should open.", 8],
+        ["Wanderer: Great! you used the ancient script and assigned the mana storage of the seal to 0, therefore it is no longer active!", 9],
+        ["Wanderer: Look! the dragon is still asleep, we should remove it's `codeshield` slowly to not wake him.", 10],
+        ["Wanderer: In the acient script tabulet, there is a special syntax missing for the spell to work.", 11],
+        ["Spell Caster: Fear not, brave one! I found a ancient spellbook on the mathematical operator, I have chosen 4 possible scripts, choose wisely.", 12],
+        ["Spell Caster: That is correct! By chipping the shield little by little, we were able to get through it's protection!", 13],
+        ["Wanderer: Oh no, looks like the dragon has woken up, and charging his `firebreath`! But I haven't learn how to use `watershield`.", 14],
+        ["Spell Caster: Do not fear! If you concate `water` with `shield` you will be able to cast the spell.", 15],
+        ["Wanderer: You're right! concatenate `water` and `shield` on the ancient script", 16],
+        ["Wanderer: Amazing reflexes traveler! Lets power our enchantedWord_power so we can finish this battle!", 17],
+        ["Wanderer: Wow! That was amazing, lets move onto our next destination, the Magic Bridge ", 18],
+        ["Wanderer: Tremendous! As we cross the Magic Bridge, let's transform a number into a magical incantation.", 19],
+        ["Wanderer: Declare 'spellNumber' and enchant it into 'spellString' using the mystical unknown spell.", 20],
+        ["Spell Caster: You're unlocking the secrets! Our final destination is the Cloud Castle, where dreams become code.", 21]
+    ],
+    "codePanel": [
+        ["", 0],
+        ["_____ enchantedWord;", 3],
+        ["___ enchantedWord_power = 100", 4],
+        ["int enchantedWord_power = 100", 5],
+        ["bool magical_barrier = ____", 6],
+        ["bool magical_barrier = true", 7],
+        ["int sealManaStorage ___ 0", 8],
+        ["int sealManaStorage = 0", 9],
+        ["codeshield ___= 1", 12],
+        ["codeshield -= 1", 13],
+        ["string water = 'water'; string shield = 'shield'; string watershield = water ___ shield;", 16],
+        ["enchantedWord_power = ___(100,2)", 17],
+        ["enchantedWord_power = pow(100,2)", 18],
+        ["int spellNumber = 42; string spellString = _______(spellNumber);", 19],
+        ["int spellNumber = 42; string spellString = to_string(spellNumber);", 20]
+    ],
+    "codeQuiz": [
+        [4, 3],
+        [0, 6],
+        [5, 8],
+        [7, 12],
+        [6, 16],
+        [13, 17],
+        [12, 19]
+    ]
+} 

@@ -1,0 +1,45 @@
+/* Display.css */
+
+.display-card {
+    position: relative;
+  }
+  
+  .display-background {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .character-overlay {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    max-width: 50%;
+    max-height: 50%;
+  }
+
+  .sidecharacter-overlay{
+    position: absolute;
+    bottom: 10%;
+    right: 0%;
+    max-width: 50%;
+    max-height: 50%;
+  }
+  
+  .character-image {
+    width: 50%;
+    height: auto;
+    position: relative;
+  }
+  
+  .display-text {
+    padding: 10px;
+    text-align: center;
+    color: #fff; /* Text color */
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  

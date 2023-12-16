@@ -1,0 +1,30 @@
+/* Code.css */
+
+.code-container {
+    float: right;
+    width: 40%;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .code-header {
+    background-color: #333; /* Dark gray header background */
+    color: #fff; /* White text */
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px 5px 0 0; /* Rounded corners only at the top */
+  }
+  
+  pre {
+    white-space: pre-wrap;
+    overflow-x: auto;
+  }
+  
+  code {
+    font-family: "Courier New", Courier, monospace;
+  }
+  

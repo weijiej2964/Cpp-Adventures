@@ -1,0 +1,72 @@
+{
+    "scenes": [["/img/SunnyField.png", 0]],
+    "characters": [["/img/prototype/empty.jpg", 0],
+                    ["/img/George.png",1]],
+    "sideCharacters": [["/img/prototype/empty.jpg", 0]],
+    "dialogue": [["Unknown: *psst Hey buddy, behind you!", 0],
+                 ["George: Hi! My name is George, do you wanna learn about the cool-sci-fi-technology-amazing-terrific language of c++?", 1],
+                 ["George: I have this ancient script tabulet here, which is suppppper cool~. I can do coooool stuff with it.", 2],
+                 ["George: So what do you say buddy, you wanna know how to set it up? I could help you :>.", 3],
+                 ["George: But if I do... You have to promise me you will give the website owner a five star rating, cooool? Click on true if you will :>.", 4],
+                 ["George: RUILLY??? Thuankz. lemme show you how to set it up for yourself,",5],
+                 ["George: Look to the right, this is my setup, cooool right?", 6],
+                ["BTW shout out to my boy W3schools for the lesson ideas! <3", 7],
+                ["George: Look to line one, this is something we call a \"header file library\", the <iostream> library unlocks our ability to input/output!",8],
+                ["Geroge: The second line as the professionals at W3schools call it \"means that we can use names for objects and variables from the standard library.\", its ok if you don't know right now you just need to know to put it!", 9],
+                ["Geroge: Now look to line 4, you see int main(){}, this is called a function, which with execute whatever is inside the {} when called, in this case main is called automatically.", 10],
+                ["George: Next, we have a \ncout\n, we can only use it when we imported the header file <iostream>, which allows us to output messages", 11],
+                ["George: The cout is used with the \ninsertion operator\n << to output messages, in this case, it outputs \"Hello World!\"!!!",12],
+                ["George: Lets try it! press run to activate the tabulet!", 13],
+                ["Ancient Script: Hello World!", 14],
+                ["George: diD yOu SeE That? cooooool~ right?", 15],
+                ["George: *cough* hnh, next, very important, every c++ statement need to end in a semicolon ; or else the script will not work. ", 16],
+                ["George: Next line!, \"return 0\" this ends the main function, simple!", 17],
+                ["George: Ahem! Before you go!, Ima have to test your knowledge, ctrl-a ... delete!", 18],
+                ["George: Ok try to let the script say... \"Thank you George for this AWESOME c++ learning experience\" :>", 19],
+                ["George: Line 1 should be", 20],
+                ["George: cooooll~! you imported the input/output library so we can use the thingy later. What's next?", 21],
+                ["George: varry Good! use namespace std for standard library, good practice. Next uppppp.", 22],
+                ["George: Nice, beginning to define the main function, continue you got this!", 23],
+                ["George: mhm, we use cout to output the text... lemme add text. continue you got this!", 24],
+                ["George: yes, we can end the function now. I'll just add on the close bracket because the website creator is too lazy to add another multiple choice for the poor closed bracket", 25],
+                ["George: Hey Vary nice, this looks Vary good!", 26],
+                ["George: Lets try and activate the script! you know the drill", 27],
+                ["Ancient Script: Thank you George for this AWESOME c++ learning experience", 28],
+                ["George: You are VArrrry welcome, but don't forget your promise :> the website owner said he will give me a pretty new look if LOOOOTS of people like me <3.", 29],
+                ["George: Anyways, we learned about the basic setup of c++, see you soon! Happy coding", 30],
+                ["You may press the \"Back to menu\" button below to return to menu", 31]
+            ],
+"codePanel": [
+    ["", 0],
+    [
+        "#include <iosteam>\nusing namespace std;\n\nint main() {\n\tcout << \"Hello World!\";\n\treturn 0;\n}", 6
+    ],
+    [
+        "",18
+    ],
+    [
+        "#include <iosteam>", 21
+    ],
+    [
+        "#include <iosteam>\nusing namespace std;", 22
+    ],
+    [
+        "#include <iosteam>\nusing namespace std;\n\nint main() {", 23
+    ],
+    [
+        "#include <iosteam>\nusing namespace std;\n\nint main() {\n\tcout << \"Thank you George for this AWESOME c++ learning experience\";", 24
+    ],
+    [
+        "#include <iosteam>\nusing namespace std;\n\nint main() {\n\tcout << \"Thank you George for this AWESOME c++ learning experience\";\n\treturn 0;\n}", 25
+    ]
+  ]
+  ,
+    "codeQuiz": [[0,4],
+                [15,13],
+                [14,20],
+                [16,21],
+                [17,22],
+                [10,23],
+                [18,24],
+                [15,27]]
+} 
