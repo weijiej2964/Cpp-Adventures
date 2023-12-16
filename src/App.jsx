@@ -23,9 +23,15 @@ const App = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/menu" element={<Menu />} />
-        <Route path="/episode/1" element={<Episode episodeData={Episode1} />} />
-        <Route path="/episode/2" element={<Episode episodeData={Episode2} />} />
+        <Route path="/Cpp-Adventures/menu" element={<Menu />} />
+        <Route
+          path="/Cpp-Adventures/episode/1"
+          element={<Episode episodeData={Episode1} />}
+        />
+        <Route
+          path="/Cpp-Adventures/episode/2"
+          element={<Episode episodeData={Episode2} />}
+        />
       </Routes>
     </Router>
   );
