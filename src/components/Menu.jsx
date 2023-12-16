@@ -12,12 +12,12 @@ const Menu = () => {
           </Link>
           <ul className="navbar-nav me-auto">
             <li className="nav-item">
-              <Link className="nav-link" to="/Cpp-Adventures/episode/1">
+              <Link className="nav-link" to="/episode/1">
                 Episode Ver. Prototype
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/Cpp-Adventures/episode/2">
+              <Link className="nav-link" to="/episode/2">
                 Episode Ver. Basic Setup
               </Link>
             </li>
@@ -36,7 +36,7 @@ const Menu = () => {
               This is a Prototype episode during development, feel free to
               visit.
             </p>
-            <Link to="/Cpp-Adventures/episode/1" className="btn btn-primary">
+            <Link to="/episode/1" className="btn btn-primary">
               Start Episode
             </Link>
           </div>
@@ -48,7 +48,7 @@ const Menu = () => {
             <p className="card-text">
               Explore the basics of C++ setup with George in this episode.
             </p>
-            <Link to="/Cpp-Adventures/episode/2" className="btn btn-primary">
+            <Link to="/episode/2" className="btn btn-primary">
               Start Episode
             </Link>
           </div>
