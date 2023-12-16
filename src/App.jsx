@@ -15,7 +15,7 @@ import Episode2 from "./EpisodeData/Episode2.json";
 const App = () => {
   useEffect(() => {
     // Redirect to the default route when the component mounts
-    if (window.location.pathname !== "/menu") {
+    if (window.location.pathname !== "/Cpp-Adventures/menu") {
       window.location.href = "/menu";
     }
   }, []);
