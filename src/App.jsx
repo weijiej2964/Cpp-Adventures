@@ -13,12 +13,12 @@ import Episode1 from "./EpisodeData/Episode1.json";
 import Episode2 from "./EpisodeData/Episode2.json";
 
 const App = () => {
-  useEffect(() => {
-    // Redirect to the default route when the component mounts
-    if (window.location.pathname !== "/Cpp-Adventures/menu") {
-      window.location.href = "/Cpp-Adventures/menu";
-    }
-  }, []);
+  // useEffect(() => {
+  //   // Redirect to the default route when the component mounts
+  //   if (window.location.pathname !== "/Cpp-Adventures/menu") {
+  //     window.location.href = "/Cpp-Adventures/menu";
+  //   }
+  // }, []);
 
   return (
     <Router basename="/Cpp-Adventures">
