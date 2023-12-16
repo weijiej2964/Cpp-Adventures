@@ -16,7 +16,7 @@ const App = () => {
   useEffect(() => {
     // Redirect to the default route when the component mounts
     if (window.location.pathname !== "/Cpp-Adventures/menu") {
-      window.location.href = "/menu";
+      window.location.href = "/Cpp-Adventures/menu";
     }
   }, []);
 
