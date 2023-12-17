@@ -1,15 +1,15 @@
 {
     "scenes": [
-        ["/img/prototype/mystic_forest.jpg", 0],
-        ["/img/prototype/dragon_cave.jpg", 8],
-        ["/img/prototype/magic_bridge.jpg", 19]
+        ["img/prototype/mystic_forest.jpg", 0],
+        ["img/prototype/dragon_cave.jpg", 8],
+        ["img/prototype/magic_bridge.jpg", 19]
     ],
     "characters": [
-        ["/img/prototype/wanderer.jpg", 0]
+        ["img/prototype/wanderer.jpg", 0]
     ],
     "sideCharacters": [
-        ["/img/prototype/empty.jpg",0],
-        ["/img/prototype/spell_caster.jpg", 12]
+        ["img/prototype/empty.jpg",0],
+        ["img/prototype/spell_caster.jpg", 12]
     ],
     "dialogue": [
         ["Wanderer: Greetings, traveler! I am on a quest to uncover the secrets of C++ magic. Care to join me?", 0],

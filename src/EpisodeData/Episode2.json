@@ -1,8 +1,8 @@
 {
-    "scenes": [["/img/SunnyField.png", 0]],
-    "characters": [["/img/prototype/empty.jpg", 0],
-                    ["/img/George.png",1]],
-    "sideCharacters": [["/img/prototype/empty.jpg", 0]],
+    "scenes": [["img/SunnyField.png", 0]],
+    "characters": [["img/prototype/empty.jpg", 0],
+                    ["img/George.png",1]],
+    "sideCharacters": [["img/prototype/empty.jpg", 0]],
     "dialogue": [["Unknown: *psst Hey buddy, behind you!", 0],
                  ["George: Hi! My name is George, do you wanna learn about the cool-sci-fi-technology-amazing-terrific language of c++?", 1],
                  ["George: I have this ancient script tabulet here, which is suppppper cool~. I can do coooool stuff with it.", 2],
