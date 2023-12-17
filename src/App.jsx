@@ -1,10 +1,5 @@
 import React, { useEffect } from "react";
-import {
-  BrowserRouter as Router,
-  Route,
-  Routes,
-  Navigate,
-} from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Menu from "./components/Menu";
 import Episode from "./components/Episode";
 
@@ -15,13 +10,13 @@ import Episode2 from "./EpisodeData/Episode2.json";
 const App = () => {
   // useEffect(() => {
   //   // Redirect to the default route when the component mounts
-  //   if (window.location.pathname !== "/Cpp-Adventures/menu") {
-  //     window.location.href = "/Cpp-Adventures/menu";
+  //   if (window.location.pathname !== "/menu") {
+  //     window.location.href = "/menu";
   //   }
   // }, []);
 
   return (
-    <Router basename="/Cpp-Adventures">
+    <Router>
       <Routes>
         <Route path="/menu" element={<Menu />} />
         <Route path="/episode/1" element={<Episode episodeData={Episode1} />} />
